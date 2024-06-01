@@ -51,5 +51,5 @@ def download_latest_release(repo_owner,repo_name,download_path='.'):
 	return A
 repo_owner='elyxdev'
 repo_name='elyx-server-eng'
-flnm=download_latest_release(repo_owner,repo_name)
-os.system(f"python3 {flnm}")
+# flnm=download_latest_release(repo_owner,repo_name)
+os.system(f"python3 {os.path.abspath('./sel2_0_3.pyc')}")
